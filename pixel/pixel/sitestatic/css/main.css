@@ -159,13 +159,21 @@ nav {
     background-color: rgba(12,15,151,0.7);
 }
 
+.slider {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+}
 
+#sliderform {
+    margin: 0 10%;
+    width: 80%;
+    color: white;
+}
 
-
-
-
-
-
+#slider {
+    margin: 10px;
+}
 
 
 

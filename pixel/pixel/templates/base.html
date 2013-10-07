@@ -15,6 +15,10 @@
         <link rel="stylesheet" href="../sitestatic/css/normalize.css">
         <link rel="stylesheet" href="../sitestatic/css/main.css">
         <script src="../sitestatic/js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -29,13 +33,41 @@
                 <li><a href="#link4">link4</a></li>
             </nav>
             <div class="main">
-                <div class="map"></div>
+                <div class="map">
+                    
+                </div>
+            </div>
+            <div class="slider">
+               <!-- <form>
+                    <input id="slider" type="range" min="2000" max="2014" step="1" value="2013">
+                </form>-->
+<form id="sliderform">
+  <label for="minbeds">Select Year</label>
+  <select name="minbeds" id="minbeds">
+    <option>All</option>
+    <option>2000</option>
+    <option>2001</option>
+    <option>2002</option>
+    <option>2003</option>
+    <option>2004</option>
+    <option>2005</option>
+    <option>2006</option>
+    <option>2007</option>
+    <option>2008</option>
+    <option>2009</option>
+    <option>2010</option>
+    <option>2011</option>
+    <option>2012</option>
+    <option>2013</option>
+  </select>
+</form>
+
             </div>
         </div>
 
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <script>window.jQuery || document.write('<script src="../sitestatic/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="../sitestatic/js/plugins.js"></script>
         <script src="../sitestatic/js/main.js"></script>
 
