@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="http://geo5.org/js/geo5.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -34,7 +35,18 @@
             </nav>
             <div class="main">
                 <div class="map">
-                    
+                    <div id="mapWithLayers20" 
+                        style="height:100%" 
+                        data-geo-type="map" 
+                        data-geo-basemap="Stamen.TonerBackground" 
+                        data-geo-zoom=1.5 >
+                    </div>
+                    <a id="tempLayer20" 
+                        data-geo-type="featureLayer" 
+                        data-geo-layer-type="geojson" 
+                        data-geo-map="mapWithLayers20" 
+                        href="../sitestatic/js/countries.geo.json">
+                    </a>
                 </div>
             </div>
             <div class="slider">

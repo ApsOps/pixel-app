@@ -166,13 +166,18 @@ nav {
 }
 
 #sliderform {
-    margin: 0 10%;
-    width: 80%;
+    margin: 0 5%;
+    width: 90%;
     color: white;
 }
 
 #slider {
     margin: 10px;
+    margin-left: 25%;
+}
+
+#minbeds {
+    margin-left: 10px;
 }
 
 
