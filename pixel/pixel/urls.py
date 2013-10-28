@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'pixel.views.home', name='home'),
-    # url(r'^pixel/', include('pixel.foo.urls')),
+    url(r'^$', include('pixelapp.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
